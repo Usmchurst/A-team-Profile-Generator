@@ -1,10 +1,10 @@
 const inquirer = require("inquirer");
 const Employee = require("./lib/Employee");
-const Engineer = require("./lib/engineer");
+const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/intern");
 const Manager = require("./lib/manager");
 const fs = require("fs");
-const generateTeam = require("./src/generateTeam");
+const generateTeam = require("./src/generateaTeam");
 
 
 team = [];
@@ -50,8 +50,8 @@ const employeeQuestions = () => {
 
       .then((employeeAnswers) => {
           
-        const employee = new Employee(employeeAnswers.id, employeeAnswers.name, employeeAnswers.email, employeeAnswers.officeNumber)
-        team.push(employee)
+        const newemployee = new Employee(employeeAnswers.id, employeeAnswers.name, employeeAnswers.email, employeeAnswers.officeNumber)
+        team.push(newemployee)
         switch(employeeAnswers.addMember) {
             case "Engineer":
                 engineerQuestions();
