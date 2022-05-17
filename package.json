@@ -1,0 +1,23 @@
+{
+  "name": "a-team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Usmchurst/A-team-Profile-Generator.git"
+  },
+  "author": "Eric Hurst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Usmchurst/A-team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Usmchurst/A-team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "jest": "^27.5.1"
+  }
+}
