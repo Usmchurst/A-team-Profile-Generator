@@ -131,4 +131,4 @@ ${generateCards(team)}
 }
 
 
-module.exports = generateaTeam;
+module.exports = generateTeam;
